@@ -1,7 +1,7 @@
 //your code here
 
 function calculateTotal() {
-	const prices = document.querySelectorAll('[data-ns-test="prices"]');
+	const prices = document.querySelectorAll('[data-ns-test="price"]');
 
 	let totalPrice = 0;
 	prices.forEach(priceElement => {
